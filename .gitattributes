@@ -1,0 +1,11 @@
+# 统一使用 LF，避免 Windows 下换行符反复改动
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ogg binary
+*.wav binary
+*.ttf binary
+*.otf binary
+*.exe binary

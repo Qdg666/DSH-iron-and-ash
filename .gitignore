@@ -1,0 +1,14 @@
+# Godot
+.godot/
+*.tmp
+*.translation
+export.cfg
+export_presets.cfg
+
+# 系统 / 编辑器
+Thumbs.db
+desktop.ini
+*.log
+
+# 本地开发产物
+build/

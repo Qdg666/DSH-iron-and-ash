@@ -1,0 +1,37 @@
+; 铁与灰 —— 中世纪黑暗回合制六边形战棋
+; Godot 4.5 工程配置
+
+config_version=5
+
+[application]
+
+config/name="铁与灰"
+config/description="回合制六边形战棋：六部位伤害、断肢、士气意志、训练度与阵型。"
+run/main_scene="res://主场景.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://图标.svg"
+boot_splash/show_image=false
+boot_splash/bg_color=Color(0.055, 0.05, 0.043, 1)
+
+[autoload]
+
+Game="*res://脚本/核心/游戏.gd"
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/size/resizable=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[gui]
+
+theme/default_font_multichannel_signed_distance_field=false
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=1
+environment/defaults/default_clear_color=Color(0.055, 0.05, 0.043, 1)
